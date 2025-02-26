@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Singlepage</title>
+        <meta name="projectsp" conent="singlepage, project">
+    </head>
+
+    <body>
+        <!--into the h1: id="xxx">normal headername, xxx is the later called variable-->
+        <h1 id ="start">Single Page Project</h1>
+
+        <p><em>This</em> is <strong>the</strong> <u>Single Page Project</u></p>
+
+        <button>like</button>
+
+        <br><br>
+        <!--in an <a> call href="#xxx", with # and the earlier called variable name
+            so you can jump to earlier called one-->
+
+        <a href="#start">Start</a>
+    </body>
+</html>
